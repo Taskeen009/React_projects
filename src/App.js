@@ -4,6 +4,8 @@ import Random from './components/colour-gen';
 import Rating from './components/star-rating';
 import Slider from './components/image-slider';
 import LoadProducts from './components/Load-more-button';
+import Tree from './components/Tree'
+import menus from './data'
 
 function App() {
   const stars=5;
@@ -13,7 +15,8 @@ function App() {
       {/* <Random/> */}
       {/* <Rating noOfStars={stars}/> */}
       {/* <Slider url={'https://picsum.photos/v2/list'}  limit={"4"} page={'1'} /> */}
-      <LoadProducts/>
+      {/* <LoadProducts/> */}
+      <Tree menus={menus}/>
     </div>
   );
 }
