@@ -9,6 +9,8 @@ import menus from './data'
 import Qr from './components/qr-code'
 import Theme from './components/Theme-switch';
 import Scroll from './components/Scroll-indicator'
+import Parent from './components/PropsPassing/Parent';
+import TabTest from './components/Tabs/tab-test';
 
 function App() {
   const stars=5;
@@ -22,7 +24,9 @@ function App() {
       {/* <Tree menus={menus}/> */}
       {/* <Qr/> */}
       {/* <Theme/> */}
-      <Scroll url={"https://dummyjson.com/products?limit=100"}/>
+      {/* <Scroll url={"https://dummyjson.com/products?limit=100"}/> */}
+      <TabTest/>
+      {/* <Parent/> */}
     </div>
   );
 }
