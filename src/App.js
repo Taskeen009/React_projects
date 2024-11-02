@@ -8,6 +8,7 @@ import Tree from './components/Tree'
 import menus from './data'
 import Qr from './components/qr-code'
 import Theme from './components/Theme-switch';
+import Scroll from './components/Scroll-indicator'
 
 function App() {
   const stars=5;
@@ -20,7 +21,8 @@ function App() {
       {/* <LoadProducts/> */}
       {/* <Tree menus={menus}/> */}
       {/* <Qr/> */}
-      <Theme/>
+      {/* <Theme/> */}
+      <Scroll url={"https://dummyjson.com/products?limit=100"}/>
     </div>
   );
 }
