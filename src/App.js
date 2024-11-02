@@ -7,6 +7,7 @@ import LoadProducts from './components/Load-more-button';
 import Tree from './components/Tree'
 import menus from './data'
 import Qr from './components/qr-code'
+import Theme from './components/Theme-switch';
 
 function App() {
   const stars=5;
@@ -18,7 +19,8 @@ function App() {
       {/* <Slider url={'https://picsum.photos/v2/list'}  limit={"4"} page={'1'} /> */}
       {/* <LoadProducts/> */}
       {/* <Tree menus={menus}/> */}
-      <Qr/>
+      {/* <Qr/> */}
+      <Theme/>
     </div>
   );
 }
