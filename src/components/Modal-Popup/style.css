@@ -1,0 +1,8 @@
+.background{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    justify-content: center;
+    left: 300px;
+}

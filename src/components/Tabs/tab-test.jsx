@@ -20,9 +20,13 @@ const TabTest=()=>{
           content: <RandomComponent />,
         },
       ];
+
+      const handlechange=(currenttabindex)=>{
+        console.log(currenttabindex)
+      }
     return(
         <div>
-            <Tabs tabsContent={tabs}/>
+            <Tabs tabsContent={tabs} onchange={handlechange}/>
         </div>
     )
 }
