@@ -1,4 +1,6 @@
 import { useState } from "react"
+import StateUsetwo from "./index2"
+import NewState from "./index3"
 
 const Stateuse=()=>{
 
@@ -20,10 +22,15 @@ const Stateuse=()=>{
     const changeColor=()=>{
         setColor(color=="Red"?"Pink":"Red")
     }
+
+
+
     return(
       <div>
-        <h1>hello {color}</h1>
-        <button onClick={()=>changeColor()}>blue</button>
+        {/* <h1>hello {color}</h1>
+        <button onClick={()=>changeColor()}>blue</button> */}
+        {/* <StateUsetwo/> */}
+        <NewState/>
       </div>  
     )
 }

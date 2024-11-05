@@ -13,7 +13,13 @@ import Parent from './components/PropsPassing/Parent';
 import TabTest from './components/Tabs/tab-test';
 import Modal from './components/Modal-Popup';
 import Stateuse from './components/useStatehook';
-
+import Effectuse from './components/useEffect/index'
+import Ref from './components/useRef'
+import Memo from './components/useMemo/index,';
+import Callback from './components/useCallback';
+import Profile from './components/contextFooter/profile';
+import File from './components/contextFooter/App'
+import Reducer from './components/Usereducer';
 
 function App() {
   const stars=5;
@@ -31,7 +37,14 @@ function App() {
       {/* <TabTest/> */}
       {/* <Parent/> */}
       {/* <Modal/> */}
-      <Stateuse/>
+      {/* <Stateuse/> */}
+      {/* <Effectuse/> */}
+      {/* <Ref/> */}
+      {/* <Memo/> */}
+      {/* <Callback/> */}
+      {/* <File/> */}
+      <Reducer/>
+      
     </div>
   );
 }
