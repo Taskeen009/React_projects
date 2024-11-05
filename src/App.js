@@ -20,6 +20,7 @@ import Callback from './components/useCallback';
 import Profile from './components/contextFooter/profile';
 import File from './components/contextFooter/App'
 import Reducer from './components/Usereducer';
+import Layout from './components/useLayoutEffect';
 
 function App() {
   const stars=5;
@@ -43,7 +44,8 @@ function App() {
       {/* <Memo/> */}
       {/* <Callback/> */}
       {/* <File/> */}
-      <Reducer/>
+      {/* <Reducer/> */}
+      <Layout/>
       
     </div>
   );
