@@ -21,6 +21,9 @@ import Profile from './components/contextFooter/profile';
 import File from './components/contextFooter/App'
 import Reducer from './components/Usereducer';
 import Layout from './components/useLayoutEffect';
+import Github from './components/GithubProfile_Finder';
+import Autoapi from './components/AutoComplete-API';
+
 
 function App() {
   const stars=5;
@@ -45,7 +48,9 @@ function App() {
       {/* <Callback/> */}
       {/* <File/> */}
       {/* <Reducer/> */}
-      <Layout/>
+      {/* <Layout/> */}
+      {/* <Github/> */}
+      <Autoapi/>
       
     </div>
   );
