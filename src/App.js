@@ -23,7 +23,7 @@ import Reducer from './components/Usereducer';
 import Layout from './components/useLayoutEffect';
 import Github from './components/GithubProfile_Finder';
 import Autoapi from './components/AutoComplete-API';
-
+import Tictac from './components/TicTac/index'
 
 function App() {
   const stars=5;
@@ -50,7 +50,8 @@ function App() {
       {/* <Reducer/> */}
       {/* <Layout/> */}
       {/* <Github/> */}
-      <Autoapi/>
+      {/* <Autoapi/> */}
+      {/* <Tictac/> */}
       
     </div>
   );
